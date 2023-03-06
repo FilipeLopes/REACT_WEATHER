@@ -1,0 +1,29 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.2);
+  /* cor de fundo com transparência */
+  backdrop-filter: blur(10px);
+  /* desfoque com 10px de raio */
+  border: none;
+  /* remover borda padrão do input */
+  padding: 10px;
+  /* adicionar um espaçamento interno para melhor legibilidade */
+  outline: none;
+  border-radius: 15px;
+  color: #fff;
+  width: 300px;
+  font-size: 1em;
+  text-align: center;
+}
+
+datalist {
+  background-color: #f5f5f5;
+}
